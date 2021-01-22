@@ -1,0 +1,216 @@
+  *, *::before, *::after {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+.signin_body {
+    width: 100%;
+    background-color: #EFEEF1;
+    background:url('https://amplifypay.com/Assets/Web/images/bg2.png');
+    overflow: hidden;
+    background-position: top left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Roboto', sans-serif;
+}
+
+.logo {
+    user-select: none;
+}
+
+.navbar {
+    background: none;
+    border: none;
+}
+
+.navbar ul li a {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: #000000;
+    border-right: 2px solid #000;
+    padding: 0px 17px !important; 
+    text-transform: capitalize;
+}
+
+.navbar ul li:last-child a {
+    border-right: none;
+    text-transform: none;
+}
+
+.navbar ul li:last-child {
+    padding-right: 0px;
+}
+
+.navbar ul li a:hover {
+    border-bottom: 1px solid #EEEEEE;
+    opacity: 1;
+}
+
+.container h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    color: #000;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    margin-top: 24px;
+    font-size: 35px;
+    color : #000;   
+    line-height: 1.5;
+}
+
+.btn {
+    border-radius: 3px;
+    font-size: 16px;
+    background: #22baa0;
+    color : #fff;
+    text-align: center;
+    border: none;
+    vertical-align: middle;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+.btn:hover {
+    background-color: #209783;
+    color: #fff;
+}
+
+
+*, *::before, *::after {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+.signup_body {
+  background-color: #ECECEC;
+  font-family: 'Roboto', sans-serif;
+}
+
+ .header {
+    text-align: center;
+    padding-top: .5em;
+    
+}
+
+.h1 {
+    text-transform: capitalize;
+}
+
+.section-container {
+  max-width: 500px;
+  margin: auto;
+  background: #fff;
+  padding: 10px;
+  margin-top: 15px;
+  border: 2px thin #000;
+  box-shadow: 5px 5px 5px 5px #888;
+  border-radius: 4px;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.icon {
+  background-color:#ECECEC ;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  justify-content: center;
+  align-content: center;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+}
+
+input[type='text'], input[type='password'] {
+  width: 50%;
+  font-size: 18px;
+  padding-left: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 2px;
+  border: 1px solid #000;
+  outline: none;
+}
+
+ label {
+  width: 180px;
+  font-size: 18px;
+  font-weight: 700;
+} 
+
+.checkbox {
+  text-align: center;
+  
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.row #btn {
+  padding: 5px 40px;
+}
+
+.forgot_password a {
+  text-decoration: none;
+}
+
+.forgot_password a:hover {
+  text-decoration: underline;
+}
+
+input[type='submit'] {
+  background-color: #25BB9F ;
+  color: #fff;
+  border: none;
+  text-align: center;
+  border-radius: 2px;
+  font-size: 20px;
+}
+
+@media (max-width:768px) {
+  .signin_body {
+    width: 100%;
+    background-color: #EFEEF1;
+    background-image:none;
+    overflow: hidden;
+    background-position: top left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+  margin-top: 7em;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    margin: .6em 0px!important;
+    font-size: 30px;
+    color : #000;   
+    line-height: 1.5;
+}
+
+.btn {
+    padding: 5px 40px;
+}
+}
+
+
+
+
+ 

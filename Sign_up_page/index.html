@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+        integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../Home_page/index.css">
+    <title>Sign up page</title>
+</head>
+<body class="signup_body">
+    <header>
+        <div class="header">
+            <img src="../Assets/Images/amplify-logo-final.png" alt="amplify logo"
+                style="width: 100px;" class="logo">
+                <h1 class="h1">welcome back</h1>
+        </div>
+    </header>
+
+    <section >
+        <div class="section-container">
+        <form method="post" action="">
+            <div class="input-container">
+                <label for="fname">First Name</label>
+                <div class="icon"><i class="fa fa-user"></i></div>
+                <input class="input-field" type="text" placeholder="Enter First Name" name="fname">
+            </div>
+
+            <div class="input-container">
+                <label for="lname">Last Name</label>
+                <div class="icon"><i class="fa fa-user"></i></div>
+                <input class="input-field" type="text" placeholder="Enter Last Name" name="lname">
+            </div>
+
+            <div class="input-container">
+                <label for="email">Email</label>
+                <div class="icon"><i class="fa fa-envelope"></i></div>
+                <input class="input-field" type="text" placeholder="Enter Email Address" name="email">
+            </div>
+
+            <div class="input-container">
+                <label for="pword">Password</label>
+                <div class="icon"><i class="fa fa-lock"></i></div>
+                <input class="input-field" type="password" placeholder="Enter Password" name="pword">
+            </div>
+
+            <div class="input-container">
+                <label for="pword">Confirm Password</label>
+                <div class="icon"><i class="fa fa-lock"></i></div>
+                <input class="input-field" type="password" placeholder="Confirm Password" name="confirm-pword">
+            </div>
+
+            <div class="checkbox"> 
+            <input type="checkbox"  name="remember"> Remember me &vert; <span class="forgot_password"><a href="#">Forgot Password?</a></span>
+            
+            </div>
+
+            <div class="row">
+            <input type="submit" value="Enter your account" id="btn" class="btn">
+            </div>
+        </form>
+
+        </div>
+    </section>
+</body>
+</html>
