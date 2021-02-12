@@ -13,8 +13,8 @@
 <body class="signup_body">
     <header>
         <div class="header">
-            <a href="/"><img src="../Assets/Images/amplify-logo-final.png" alt="amplify logo" style="width: 100px;" class="logo"></a>
-                <h1 class="h1">welcome back</h1>
+            <a href="/"><img src="../Assets/Images/amplify-logo-final.png" alt="amplify logo" style="width: 150px;" class="logo"></a>
+                <h2 class="h2">welcome back</h2>
         </div>
     </header>
 
@@ -23,32 +23,53 @@
         <form method="post" action="">
             <div class="input-container">
                 <label for="fname">First Name</label>
-                <div class="icon"><i class="fa fa-user"></i></div>
+                
+                <div class="input-group">
+                    <span class="input-group-icon">
+                    <i class="fa fa-user icon"></i>
+                </span>
+                </div>
                 <input class="input-field" type="text" placeholder="Enter First Name" name="fname">
             </div>
 
             <div class="input-container">
                 <label for="lname">Last Name</label>
-                <div class="icon"><i class="fa fa-user"></i></div>
+                <div class="input-group">
+                    <span class="input-group-icon">
+                    <i class="fa fa-user icon"></i>
+                    </span>
+                </div>
                 <input class="input-field" type="text" placeholder="Enter Last Name" name="lname">
             </div>
 
             <div class="input-container">
                 <label for="email">Email</label>
-                <div class="icon"><i class="fa fa-envelope"></i></div>
-                <input class="input-field" type="text" placeholder="Enter Email Address" name="email">
+                <div class="input-group">
+                    <span class="input-group-icon">
+                    <i class="fa fa-envelope icon"></i>
+                    </span>
+                </div>
+                <input class="input-field" type="text" placeholder="Enter Email Address" name="email" required>
             </div>
 
             <div class="input-container">
                 <label for="pword">Password</label>
-                <div class="icon"><i class="fa fa-lock"></i></div>
-                <input class="input-field" type="password" placeholder="Enter Password" name="pword">
+                <div class="input-group">
+                    <span class="input-group-icon">
+                    <i class="fa fa-lock icon"></i>
+                    </span>
+                </div>
+                <input class="input-field" type="password" placeholder="Enter Password" name="pword" required>
             </div>
 
             <div class="input-container">
                 <label for="pword">Confirm Password</label>
-                <div class="icon"><i class="fa fa-lock"></i></div>
-                <input class="input-field" type="password" placeholder="Confirm Password" name="confirm-pword">
+                <div class="input-group">
+                    <span class="input-group-icon">
+                    <i class="fa fa-lock icon"></i>
+                    
+                </div>
+                <input class="input-field" type="password" placeholder="Confirm Password" name="confirm-pword" required>
             </div>
 
             <div class="checkbox"> 
